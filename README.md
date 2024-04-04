@@ -5,3 +5,4 @@ Integrantes:
 - Claudia Vargas
 - María Marta Merino
 - Juan Luis Scardino
+- Aylen Lee
