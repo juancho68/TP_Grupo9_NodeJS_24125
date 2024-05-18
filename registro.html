@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MisMascotas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/3a6a7a1eda.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <link rel="shortcut icon" href="./img/pets_col.png" type="image/x-icon">
+
+   <style>
+/* Header/logo Title */
+.header {
+    padding: 5px;
+    text-align: center;
+    font-size:x-large;
+    font: bold 40px Arial, sans-serif;
+    
+    border-bottom-color: #333;
+    background-color: #dbdbdb;
+    color: rgb(92, 2, 2);
+    background-image: url('img/bg.png');
+    
+}
+/* Fake image, just for this example */
+.contacto {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url('img/pizzaDelivery.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nosotros {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url('img/pizzaTriptico.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+   </style>
+   
+</head>
+
+<body>
+
+
+
+    <!-- Note -->
+    <div style="background:#333;padding:20px">
+        <!--
+        <h4 style="text-align:center">Resize the browser window to see the responsive effect.</h4>
+        -->
+    </div>
+
+    <!-- Header -->
+    <div class="header" >
+        <img src="./img/pets_col.png"   alt="logo" width="100">
+        <h1><span class="titulo">MisMascotas</span></h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="sucursales.html" >Sucursales</a>
+        <a href="condiciones.html">Condiciones</a>
+        <a href="registro.html" >Registro</a>
+        <a href="carrito.html">Comprar</a>
+    </div>
+
+    <!-- The flexible grid (content) -->
+    <div class="row">
+        <div class="side">
+            <h2>Registrese...</h2>
+
+            <h4>Así tendrá acceso a poder adoptar una <a href="carrito.html">mascota en adopción</a></h4>
+            <br>
+            <p>
+                O también Puede canalizar todas sus dudas escribiéndonos a: <br>
+                <a href="mailto:mis.mascotas@gmail.com">mis.mascotas@gmail.com</a>
+            </p>
+            <h5>O seguirnos a través de nuestras redes sociales</h5>
+            <div style="padding-left: 16px;">
+                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"> Twitter</i> </a><br>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"> Facebook</i> </a><br>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"> Instagram</i> </a><br>                        
+            </div>
+            <div>
+                <br>
+                <img src="./img/rundog.jpg"   alt="logo" width="200">
+            </div>
+
+        </div>
+        <div class="main">
+            <form action="./show_data.html"  target="_blank">
+            <div class="container">
+                <h1>Nuevo usuario</h1>
+                <p>Complete el formulario para crear una cuenta.</p>
+                <hr>
+            
+                <label for="txtNombre"><b>Nombre</b></label>
+                <input type="text" placeholder="Ingrese Nombre" name="txtNombre" id="txtNombre" required>
+            
+                <label for="txtApellido"><b>Apellido</b></label>
+                <input type="text" placeholder="Ingrese Apellido" name="txtApellido" id="txtApellido" required>
+            
+                <label for="txtEmail"><b>Email</b></label>
+                <input type="text" placeholder="Ingrese Email" name="txtEmail" id="txtEmail" required>
+            
+                <label for="psw"><b>Contraseña</b></label>
+                <input type="password" placeholder="Ingrese Password" name="txtPassw" id="txtPassw" required>
+            
+                <label for="psw-repeat"><b>Repetir contraseña</b></label>
+                <input type="password" placeholder="Repita Password" name="txtPasswRepeat" id="txtPasswRepeat" required>
+                <hr>
+            
+                <p>Al crear un usuario usted está de acuerdo a nuestros<a href="#">Términos & Condiciones</a>.   <button type="reset" class="resetbtn">Borrar</button></p>
+                
+                <button type="submit" class="registerbtn">Registrar</button>
+              </div>
+            
+              <div class="container signin">
+                <p>Ya está registrado? <a href="#">Ingresar</a>. </p> 
+                
+              </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <br>
+         <nav>
+             <a href="https://www.twitter.com"><i class="icon-cog faiconcolor fa-brands fa-twitter"></i> </a>
+             <a href="https://www.facebook.com/"><i class="icon-cog faiconcolor fa-brands fa-facebook"></i> </a>
+             <a href="https://www.instagram.com/"><i class="icon-cog faiconcolor fa-brands fa-instagram"></i> </a>    
+         </nav>
+         <p>Derechos reservados 2024</p>
+         <br>
+    </div>
+
+</body>
+
+</html>
