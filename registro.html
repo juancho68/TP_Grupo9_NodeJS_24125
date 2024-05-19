@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/register.css" />
     <link rel="shortcut icon" href="./img/pets_col.png" type="image/x-icon">
 
-   <style>
+  <style>
 /* Header/logo Title */
 .header {
     padding: 5px;
@@ -21,10 +21,9 @@
     border-bottom-color: #333;
     background-color: #dbdbdb;
     color: rgb(92, 2, 2);
-    background-image: url('img/bg.png');
+    background-image:url('img/bg.png');
     
 }
-
 
    </style>
    
@@ -50,16 +49,16 @@
     <!-- Navigation Bar -->
     <div class="navbar">
         <a href="index.html">Home</a>
-        <a href="Refugios.html" >Refugios</a>
+        <a href="sucursales.html" >Nuestros refugios</a>
         <a href="condiciones.html">Condiciones</a>
-        <a href="registro.html" >Registro</a>
+        <a href="registro.html" >Forma Parte</a>
         <a href="carrito.html">Adoptar</a>
     </div>
 
     <!-- The flexible grid (content) -->
     <div class="row">
         <div class="side">
-            <h2>Registrese...</h2>
+            <h2>Complete el formulario...</h2>
 
             <h4>Así tendrá acceso a poder adoptar una <a href="carrito.html">mascota en adopción</a></h4>
             <br>
@@ -69,9 +68,9 @@
             </p>
             <h5>O seguirnos a través de nuestras redes sociales</h5>
             <div style="padding-left: 16px;">
-                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"> Twitter</i> </a><br>
-                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"> Facebook</i> </a><br>
-                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"> Instagram</i> </a><br>                        
+                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>                       
             </div>
             <div>
                 <br>
@@ -82,8 +81,8 @@
         <div class="main">
             <form action="./show_data.html"  target="_blank">
             <div class="container">
-                <h1>Nuevo usuario</h1>
-                <p>Complete el formulario para crear una cuenta.</p>
+                <h1>Forma parte </h1>
+                <p>Complete el formulario para formar parte de nuestra comunidad.</p>
                 <hr>
             
                 <label for="txtNombre"><b>Nombre</b></label>
@@ -95,22 +94,26 @@
                 <label for="txtEmail"><b>Email</b></label>
                 <input type="text" placeholder="Ingrese Email" name="txtEmail" id="txtEmail" required>
             
-                <label for="psw"><b>Contraseña</b></label>
-                <input type="password" placeholder="Ingrese Password" name="txtPassw" id="txtPassw" required>
+                <label for="txtTelefono"><b>Teléfono</b></label>
+                <input type="text" placeholder="Ingrese Telefono" name="txtTelefono" id="txtTelefono" required>
             
-                <label for="psw-repeat"><b>Repetir contraseña</b></label>
-                <input type="password" placeholder="Repita Password" name="txtPasswRepeat" id="txtPasswRepeat" required>
+                <label for="contacto"><b>Area de contacto</b></label>
+                <select>
+                    <option value="participar"><b>Como quiere participar</b></option>
+                    <option value="adopciones">ADOPCIONES</option>
+                    <option value="donaciones">DONACIONES</option>
+                    <option value="voluntarios">VOLUNTARIOS</option>
+                   
+              </select>
                 <hr>
             
-                <p>Al crear un usuario usted está de acuerdo a nuestros<a href="#">Términos & Condiciones</a>.   <button type="reset" class="resetbtn">Borrar</button></p>
                 
-                <button type="submit" class="registerbtn">Registrar</button>
+                <button type="submit" class="registerbtn">Enviar</button>
+                <button type="reset" class="resetbtn">Borrar</button></p>
+                
               </div>
             
-              <div class="container signin">
-                <p>Ya está registrado? <a href="#">Ingresar</a>. </p> 
-                
-              </div>
+              
             </form>
         </div>
     </div>
