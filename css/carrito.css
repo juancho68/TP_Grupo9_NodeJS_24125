@@ -138,13 +138,7 @@
      
  }
 
- .carrito-moto {
-    background-image: url(../img/moto.png);
-    animation-name: pizza;
-    animation-duration: 3s ;
-    animation-fill-mode: forwards;
-    
-  }
+
 
 @keyframes boton {
 from {background-color:rgb(175, 173, 173);}
@@ -153,11 +147,7 @@ to {background-color: brown;}
 
 }
 
-@keyframes pizza {
-    0% {left:0px; top:0px;}
-    50% {left:400px; top:0px;}
-    100% {left:0px; top:0px;}
-}
+
 .list-group{
     margin: 5px;
     padding: 20px;
